@@ -29,7 +29,7 @@ with open("input.txt") as f:
 
     direction = 0 + 1j  # Up
     pos = 0 + 0j
-    bursts = 10000000
+    bursts = 10000
     infected = 0
 
     for i in range(bursts):
@@ -43,7 +43,7 @@ with open("input.txt") as f:
 
     direction = 0 + 1j  # Up
     pos = 0 + 0j
-    bursts = 100
+    bursts = 10000000
     infected = 0
 
     for i in range(bursts):
